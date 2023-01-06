@@ -1,0 +1,106 @@
+*{
+    margin:0;  
+    font-family: Arial, Helvetica, sans-serif;'; 
+}
+/* header section */
+.header{
+    background-image: url(../images/banner/banner1.png);
+}
+.header-description{
+    text-align: right;
+    padding:250px;
+}
+.section-heading{
+    font-size:55px; 
+    font:'Work Sans';
+}
+.section-container{
+    margin-top:25px;
+    margin-bottom: 28px;
+}
+.section-container:first-letter{
+    padding-left: 50%;
+}
+.btn-primary{
+    color: #FFFFFF; 
+    background-color: #F15B22;
+    width: 160px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* end of header section */
+/* section : previous fail*/
+.previous-fail{
+    font-family:'work sans'; 
+    background-image: url(../images/person.png);
+    background-repeat:no-repeat; 
+    padding:20%; 
+    background-position: 20%;
+}
+.previous-fail-container{
+    height: 416px;
+    width: 400px;
+    margin-left:50%;
+    margin-top:300px;  
+}
+.previous-fail-container > ul{
+    list-style: none;
+}
+.previous-fail-container > p {
+    margin-bottom: 19px ;
+    margin-top:24px; 
+}
+.previous-fail-container>h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+.plans{
+    width: 1141px;
+    height: 300px; 
+    margin-left: 150px;
+}
+.plans>h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.plan-items{
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding: 30px;
+    margin-right: 20px; 
+    text-align: center;
+}
+.plans-names{
+    margin-bottom: 10px;
+}
+.motivation{
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(to right, #ff0000c9 , #ffff0000),url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-left:170px; 
+
+}
+.motivation> div{
+    margin-left:50px; 
+    padding:60px; 
+}
+.motivatin-title > h3{
+    margin-bottom:10px; 
+    color:#FFFFFF; 
+    font-size: 50px;
+}
+.btn{
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    margin-left:120px; 
+    height: 40px;
+    width: 120px; 
+    border:none; 
+    border-radius: 5px;
+}
+
