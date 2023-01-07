@@ -77,13 +77,12 @@
     margin-bottom: 10px;
 }
 .motivation{
-    
+    margin-bottom:10px;
     width: 1140px;
     height: 300px;
     background-image: linear-gradient(to right, #ff0000c9 , #ffff0000),url(../images/watch.png);
     background-repeat: no-repeat;
     margin-left:170px; 
-
 }
 .motivation> div{
     margin-left:50px; 
