@@ -5,6 +5,7 @@
 /* header section */
 .header{
     background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
 }
 .header-description{
     text-align: right;
@@ -33,7 +34,7 @@
 /* end of header section */
 /* section : previous fail*/
 .previous-fail{
-    font-family:'work sans'; 
+    font-family: 'Work Sans';
     background-image: url(../images/person.png);
     background-repeat:no-repeat; 
     padding:20%; 
@@ -45,8 +46,16 @@
     margin-left:50%;
     margin-top:300px;  
 }
-.previous-fail-container > ul{
+.previous-fail-container > ul >li{
     list-style: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.previous-fail i{
+    color: green; 
 }
 .previous-fail-container > p {
     margin-bottom: 19px ;
